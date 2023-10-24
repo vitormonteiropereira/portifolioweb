@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="main.css">
+    
+    
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio Pessoal</h1>
+    </header>
+
+    <nav>
+        <a href="#" onclick="showSection('sobre')">Sobre Mim</a>
+        <a href="#" onclick="showSection('formacao')">Formação</a>
+        <a href="#" onclick="showSection('portfolio')">Portfólio</a>
+        <a href="#" onclick="showSection('contato')">Contato</a>
+    </nav>
+
+    <div class="container">
+        <section id="sobre" class="hidden">
+            <h2>Sobre Mim</h2>
+            <p>Olá, eu sou Vitor Monteiro Pereira. Sou um desenvolvedor web apaixonado por tecnologia e programação.
+            Desde criança, sempre fui fascinado pelo mundo da computação.</p>
+
+    <p>Minha jornada no desenvolvimento web começou durante meus estudos na faculdade. 
+    Lá, tive a oportunidade de aprender as bases da programação e me aprofundar em algumas linguagens. 
+    Ao longo dos anos, expandi meu conhecimento para incluir frameworks modernos e ferramentas de desenvolvimento web.</p>
+
+    <p>Fora do mundo digital, tenho diversos hobbies que complementam minha vida como desenvolvedor.
+        Gosto de futebol, filmes e música.</p>
+
+    <p>Este site é o meu portfólio pessoal, onde compartilho alguns dos meus projetos e realizações.
+        Espero que você encontre algo que lhe interesse e que possamos nos conectar.
+        Sinta-se à vontade para explorar e entrar em contato comigo se quiser discutir oportunidades de colaboração ou simplesmente bater um papo sobre tecnologia.</p>
+        </section>
+
+        <section id="formacao" class="hidden">
+            <h2>Formação e Idiomas</h2>
+            <p>Sou formado em Engenharia de Produção pela Universidade Federal do Triângulo Mineiro.</p>
+            <p>Atualmente estou cursando Análise e Desenvolvimento de Sistemas na UNINTER.</p>
+            <p>Além do português também sou fluente em inglês.</p>
+        </section>
+
+        <section id="portfolio" class="hidden">
+            <h2>Portfólio</h2>
+            <p>Aqui estão alguns dos meus projetos mais recentes:</p>
+            <ul>
+                <li><a href="https://github.com/vitormonteiropereira">Meu Perfil no GitHub</a></li>
+            </ul>
+        </section>
+
+        <section id="contato" class="hidden">
+            <h2>Contato</h2>
+            <p>Entre em contato comigo através do e-mail ou número de telefone abaixo:</p>
+            <p>E-mail: vitor_891@hotmail.com</p>
+            <p>Número de Telefone: (19) 99179-3383</p>
+            <p>Ou envie uma mensagem:</p>
+            <form>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="E-mail">
+                <textarea placeholder="Mensagem"></textarea>
+                <button>Enviar Mensagem</button>
+            </form>
+        </section>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
